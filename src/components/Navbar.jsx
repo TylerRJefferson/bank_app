@@ -13,7 +13,7 @@ const Navbar = () => {
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'} text-white`}
+            className={`font-poppins font-normal cursor-pointer hover:text-secondary text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'} text-white`}
           >
             <a href={`#${nav.id}`}>
               {nav.title}
@@ -37,7 +37,7 @@ const Navbar = () => {
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
-                className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mb-4'} text-white`}
+                className={`font-poppins font-normal cursor-pointer hover:text-secondary text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mb-4'} text-white`}
               >
                 <a href={`#${nav.id}`}>
                   {nav.title}
