@@ -5,6 +5,7 @@ This project was generated with [Reactjs](https://reactjs.org/)
 ## Deployed App
 
 http://bankapp-tj.s3-website-us-east-1.amazonaws.com/
+<img width="1149" alt="bank app screenshot" src="https://user-images.githubusercontent.com/115005118/220456372-3e09491b-19a6-46a4-bd4b-1dd6ed7a9251.png">
 
 ## Contact
 
